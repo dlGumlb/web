@@ -77,9 +77,8 @@ body{
   
 }
 
-.second_menu.active{
-  width: auto;
-  height: 500px;
+.second_menu.is_active .menu_content{
+  display: block;
   background-color: aqua;
 }
 
@@ -102,8 +101,7 @@ body{
     background-color: rgb(76, 74, 74);
     display: flex;
     flex-wrap: wrap;
-  }
-
-  
+  }  
 }
+
 
