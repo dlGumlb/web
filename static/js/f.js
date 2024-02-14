@@ -1,3 +1,3 @@
 function openmenu() {
-    console.log(1)
+    document.getElementById('menu_content').display = 'block'
 }

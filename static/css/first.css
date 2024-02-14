@@ -94,7 +94,7 @@ body{
   .topnav {/*web setting on pc (hide)*/
 
     background-color: rgb(76, 74, 74);
-    display: none;
+    display:none;
     flex: auto;
   
   }
