@@ -80,6 +80,8 @@ body{
 .second_menu.is_active .menu_content{
   display: block;
   background-color: aqua;
+  height: 600px;
+  width: auto;
 }
 
 .menu_content {

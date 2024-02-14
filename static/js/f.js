@@ -1,5 +1,3 @@
-function openmenu(tesk) {
-    document.getElementsByClassName('second_menu').divElement.ClassName('sencond_menytwo')
-
+function openmenu() {
+    console.log(1)
 }
-
