@@ -74,14 +74,23 @@ body{
   
 }
 
-#menu_content {
+#menu{
   display: none;
+  position: absolute;
   background-color: rgb(237, 239, 240);
+  flex-direction: column;
+  width: 100%;
+  top: 40px;
+}
+/*
+#menu_content {
+ 
+  
   flex-flow: column;
-  height: 100%;
+
 
 }
-
+*/
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/

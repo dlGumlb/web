@@ -1,6 +1,7 @@
 
 function openmenu() {
-    let x = document.getElementById("menu_content")
+
+    let x = document.getElementById("menu")
     let y = document.getElementById("content")
 
     if(x.style.display == 'none'){
@@ -10,7 +11,5 @@ function openmenu() {
         x.style.display = 'none'
         y.style.display = "block"
     }
-    
+
 }
-
-
