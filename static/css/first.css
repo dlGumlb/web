@@ -11,9 +11,6 @@ body{
 
   background-color: rgb(76, 74, 74);
   display: flex;/* let <a>part be flex*/
-  
- 
-
 }
 
 
@@ -77,16 +74,12 @@ body{
   
 }
 
-.second_menu.is_active .menu_content{
-  display: block;
-  background-color: aqua;
-  height: 600px;
-  width: auto;
-}
-
-.menu_content {
+#menu_content {
   display: none;
-  background-color: aliceblue;
+  background-color: rgb(237, 239, 240);
+  flex-flow: column;
+  height: 100%;
+
 }
 
 
