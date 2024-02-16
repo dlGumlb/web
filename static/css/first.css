@@ -81,12 +81,24 @@ body{
   flex-direction: column;
   width: 100%;
   top: 40px;
+  bottom: 0px;
 }
+
 /*
 #menu_content{
-  display: ;
+  display:list-item;align-items: center;
 }
 */
+
+#menu_content p{
+  width: 100%;
+  height: 70px;
+  display:list-item;align-items: center;
+}
+
+#menu_content p:hover{
+  background-color: aqua;
+}
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
