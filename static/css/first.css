@@ -112,4 +112,18 @@ body{
   }  
 }
 
+@media (max-width:100000px) { /*what should the web do when the web width is not enough*/
+  .topnav {/*web setting on pc (hide)*/
 
+    background-color: rgb(76, 74, 74);
+    display:flex;
+    flex: auto;
+  
+  }
+  .second {/*web setting on phone(show)*/
+  
+    background-color: rgb(76, 74, 74);
+    display: none;
+    flex-wrap: wrap;
+  }  
+}
