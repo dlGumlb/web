@@ -109,7 +109,7 @@ body{
 #x_button{
   height: 50px;
   width: 50px;
-  background-color: rgb(52, 50, 50);
+
 }
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
