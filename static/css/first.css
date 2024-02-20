@@ -73,6 +73,8 @@ body{
   background-color: rgb(43, 76, 49);
 }
 
+/* --------------menu content-------------------- */
+
 #menu{
   position: absolute;
   background-color: rgb(52, 50, 50);
@@ -102,6 +104,12 @@ body{
 .words{
   display:inline-block;
   width: 90%;
+}
+
+#x_button{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(52, 50, 50);
 }
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
