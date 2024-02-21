@@ -21,5 +21,9 @@ def three(request):
 
     return render(request, './myself/three.html')
 
+def home(request):
+
+    return render(request, './myself/home.html')
+
 
     

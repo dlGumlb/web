@@ -18,8 +18,9 @@ from django.urls import path
 from myself import views as vw
 
 urlpatterns = [
+    path('',vw.home),
     path('admin/', admin.site.urls),
-    path('', vw.one),
+    path('one/', vw.one),
     path('two/', vw.two),
     path('three/', vw.three)
 ]
