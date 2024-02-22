@@ -82,10 +82,11 @@ body{
   width: 100%;
   top: 40px;
   bottom: 0px;
+  display: none;
 }
 
 #menu_content{
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 #menu_content a{
@@ -107,13 +108,18 @@ body{
 }
 
 #x_button{
-  
+  position:relative;
   float: right;
-  height: 45px;
+  height: 50px;
   width: 50px;
   background-color: rgb(52, 50, 50);
+  color: aliceblue;
+  font-size:xx-large;
 }
 
+#x_button span{
+  position:relative; top:25px; left: 25px;
+}
 
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
