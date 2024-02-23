@@ -110,14 +110,14 @@ body{
 
 #x_button{
   position:relative;
-  float: right;
+
   height: 50px;
   width: 50px;
   background-color: rgb(52, 50, 50);
   color: aliceblue;
-  font-size:xx-large;
+  font-family: "Source Sans Pro Topnav", sans-serif;
   border-radius: 3px;
-  
+  text-align: center;
 }
 /*
 #x_button{
@@ -134,6 +134,9 @@ body{
 
 #x_button span{
   position:relative; top:25px; left: 0px;
+  display: inline-block;
+  font-size: 50px ;
+  
 }
 
 #x_button:hover{
