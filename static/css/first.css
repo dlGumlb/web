@@ -107,7 +107,7 @@ body{
   display:inline-block;
   width: 90%;
 }
-/*
+
 #x_button{
   position:relative;
   float: right;
@@ -116,8 +116,10 @@ body{
   background-color: rgb(52, 50, 50);
   color: aliceblue;
   font-size:xx-large;
+  border-radius: 3px;
+  
 }
-*/
+/*
 #x_button{
   position: absolute;
   display: block;
@@ -127,11 +129,17 @@ body{
   height: 64px;
   padding: 0;
 }
+*/
+
 
 #x_button span{
   position:relative; top:25px; left: 0px;
 }
 
+#x_button:hover{
+  color:rgb(41, 39, 39);
+  background-color: aliceblue;
+}
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
