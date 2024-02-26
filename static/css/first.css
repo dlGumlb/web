@@ -56,18 +56,14 @@ body{
   background-color: rgb(76, 74, 74);
   display: none; /* hide */
   flex-wrap: wrap; /* */ 
-  
-
 }
 
 .second_menu{
   background-size: cover;
-  width: 60px;
-  height: 40px;
-  background-color: rgb(78, 132, 88);
+  width: 60px;height: 40px;
+  background-color: rgb(78, 132, 88);color: white;
   display:flex;align-items: center;justify-content: center;
   text-decoration: none;  
-  color: white;
 }
 
 .second_menu:hover{
@@ -110,34 +106,18 @@ body{
 
 #x_button{
   position:relative; /*the position of object when the web size change*/
-  /*display: flex;justify-content: center;align-items: center;*/  /* X mark location */
+  display: flex;justify-content: center;align-items: center;  /* X mark location */
   height: 50px;width: 50px;/* size */
   background-color: rgb(52, 50, 50);color: aliceblue; /* color */
   border-radius: 3px; /* side radius */
-  float: right;margin-right: 15px; margin-top: 20px;/* location */
-  
+  float: right;margin-right: 15px; margin-top: 20px;/* location */ 
 }
-/*
-#x_button{
-  position: absolute;
-  display: block;
-  top: 10px;
-  right: 10px;o
-  width: 64px;
-  height: 64px;
-  padding: 0;
-}
-*/
-
 
 #x_button span{
   position:absolute;
   font-size: 25px;
-  height: 25px;
-  width: 25px;  
-  display: flex;justify-content: center;align-items: center;  
-  
-  
+  height: 25px;width: 25px; 
+  display: flex;justify-content: center;align-items: center; /* X mark location */ 
 }
 
 #x_button:hover{
