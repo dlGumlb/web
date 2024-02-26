@@ -109,22 +109,24 @@ body{
 }
 
 #x_button{
-  position:relative;
-
+  position:relative; /*the position of object when the web size change*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 50px;
   background-color: rgb(52, 50, 50);
   color: aliceblue;
-  font-family: "Source Sans Pro Topnav", sans-serif;
   border-radius: 3px;
-  text-align: center;
+  float: right;
+  padding: 8px 16px;
 }
 /*
 #x_button{
   position: absolute;
   display: block;
   top: 10px;
-  right: 10px;
+  right: 10px;o
   width: 64px;
   height: 64px;
   padding: 0;
@@ -133,9 +135,13 @@ body{
 
 
 #x_button span{
-  position:relative; top:25px; left: 0px;
+  position:absolute;
   display: inline-block;
-  font-size: 50px ;
+  font-size: 25px;
+  height: 25px;
+  width: 25px;  
+  display: flex;justify-content: center;align-items: center;  
+  
   
 }
 
