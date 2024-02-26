@@ -10,19 +10,19 @@ body{
 
 .topnav {
   
-  background-color: rgb(76, 74, 74);
+  background-color: rgb(26, 25, 25);
   display: flex;/* let <a>part be flex*/
 }
 
 
 .topnav a {
 
-  background-color: rgb(76, 74, 74);
+  background-color: rgb(26, 25, 25);
   color: rgb(255, 255, 255);
   /* text-align: center; where the text locate*/
   flex: none;/* how big <a>thing is. In this case, it's using width*/
-  width: 60px;
-  height: 40px;
+  width: 65px;
+  height: 50px;
   display: flex;align-items: center;justify-content: center;
   text-decoration: none;  
 }
@@ -34,18 +34,18 @@ body{
 }
 */
 .topnav a:hover{
-  background-color: rgb(20, 20, 20);
-  color: rgb(255, 255, 255);
+  background-color: aliceblue;
+  color: rgb(26, 25, 25);
 }
 
 .topnav a.is_active{
-  background-color: rgb(78, 132, 88);
+  background-color: rgb(86, 131, 173);
   color: rgb(255, 255, 255);
   
 }
 
 .topnav a.is_active:hover{
-  background-color: rgb(43, 76, 49);
+  background-color: rgb(70, 106, 139);
   color: rgb(255, 255, 255);
   
 }
@@ -53,21 +53,21 @@ body{
 
 .second {
 
-  background-color: rgb(76, 74, 74);
+  background-color: rgb(26, 25, 25);
   display: none; /* hide */
   flex-wrap: wrap; /* */ 
 }
 
 .second_menu{
   background-size: cover;
-  width: 60px;height: 40px;
-  background-color: rgb(78, 132, 88);color: white;
+  width: 65px;height: 50px;
+  background-color:  rgb(86, 131, 173);color: rgb(255, 255, 255);
   display:flex;align-items: center;justify-content: center;
   text-decoration: none;  
 }
 
 .second_menu:hover{
-  background-color: rgb(43, 76, 49);
+  background-color: rgb(70, 106, 139);
 }
 
 /* --------------menu content-------------------- */
@@ -121,21 +121,20 @@ body{
 }
 
 #x_button:hover{
-  color:rgb(41, 39, 39);
-  background-color: aliceblue;
+  color:rgb(41, 39, 39);background-color: aliceblue;
 }
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
 
-    background-color: rgb(76, 74, 74);
+    background-color: rgb(26, 25, 25);
     display:none;
     flex: auto;
   
   }
   .second {/*web setting on phone(show)*/
   
-    background-color: rgb(76, 74, 74);
+    background-color: rgb(26, 25, 25);
     display: flex;
     flex-wrap: wrap;
   }  
