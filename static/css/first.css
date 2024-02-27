@@ -127,14 +127,14 @@ body{
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
 
-    background-color: rgb(26, 25, 25);
+    /*background-color: rgb(26, 25, 25); */
     display:none;
     flex: auto;
   
   }
   .second {/*web setting on phone(show)*/
   
-    background-color: rgb(26, 25, 25);
+    /*background-color: rgb(26, 25, 25);*/
     display: flex;
     flex-wrap: wrap;
   }  
