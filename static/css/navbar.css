@@ -155,13 +155,24 @@ body, html {
   
 }
 /*  content */
-svg {
-  display: block;
-}
+
 
 #content{
   height: 100%;
   width: 100%;
+  margin-top: -50px;
+ 
+}
+
+#filler{
+  height: 50px;
+  width: 100%;
+}
+
+#line{
+  padding-top: 50px;
+  display:flex;align-items: center;justify-content: center;
+
 }
 
 
