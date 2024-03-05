@@ -169,10 +169,9 @@ body, html {
   width: 100%;
 }
 
-#line{
-  padding-top: 50px;
-  display:flex;align-items: center;justify-content: center;
-
+#my_div {
+  display: block;
+  
 }
 
 
