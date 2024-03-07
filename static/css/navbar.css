@@ -15,7 +15,7 @@ body, html {
 }
 /* home button*/
 #home_button{
-  background-color: rgb(26, 25, 25);
+  background-color: #212121;
   display: flex;/* let <a>part be flex*/
   
 }
@@ -37,7 +37,7 @@ body, html {
 }
 /* normal navbar */
 .topnav{
-  background-color: rgb(26, 25, 25);
+  background-color: #212121;
   display: flex;justify-content: end;/* let <a>part be flex*/
   margin-top: -50px;
 }
@@ -45,7 +45,7 @@ body, html {
 
 .topnav a {
 
-  background-color: rgb(26, 25, 25);
+  background-color: #212121;
   color: rgb(255, 255, 255);
   /* text-align: center; where the text locate*/
   flex: none;/* how big <a>thing is. In this case, it's using width*/
@@ -63,7 +63,7 @@ body, html {
 */
 .topnav a:hover{
   background-color: aliceblue;
-  color: rgb(26, 25, 25);
+  color: #212121;
 }
 
 .topnav a.is_active{
@@ -81,7 +81,7 @@ body, html {
 
 .second {
 
-  background-color: rgb(26, 25, 25);
+  background-color: #212121;
   display: none;justify-content: end; /* hide */
   flex-wrap: wrap; /* */ 
   margin-top: -50px;
@@ -103,7 +103,7 @@ body, html {
 
 #menu{
   position: absolute;
-  background-color: rgb(52, 50, 50);
+  background-color: #212121;
   flex-direction: column;
   width: 100%;
   top: 50px;
@@ -125,7 +125,7 @@ body, html {
 
 #menu_content a:hover{
   background-color: aliceblue;
-  color: rgb(52, 50, 50);
+  color: #212121;
 }
 
 .words{
@@ -137,7 +137,7 @@ body, html {
   position:relative; /*the position of object when the web size change*/
   display: flex;justify-content: center;align-items: center;  /* X mark location */
   height: 50px;width: 50px;/* size */
-  background-color: rgb(52, 50, 50);color: aliceblue; /* color */
+  background-color: #212121;color: aliceblue; /* color */
   border-radius: 3px; /* side radius */
   float: right;margin-right: 15px; margin-top: 20px;/* location */ 
 }
@@ -150,7 +150,7 @@ body, html {
 }
 
 #x_button:hover{
-  color:rgb(41, 39, 39);background-color: aliceblue;
+  color:#212121;background-color: aliceblue;
   
   
 }
@@ -169,9 +169,10 @@ body, html {
   width: 100%;
 }
 
-#my_div {
-  display: block;
-  
+#content_me{
+  background-color: #212121;
+  height: 100%;
+  width: 50%;
 }
 
 
@@ -186,7 +187,7 @@ body, html {
   .second {/*web setting on phone(show)*/
   
     /*background-color: rgb(26, 25, 25);*/
-    display: flex;
+    display: block;
     flex-wrap: wrap;
   }  
 }
