@@ -75,30 +75,34 @@ body, html {
 }
 
 .topnav a.is_active:hover{
-  background-color: rgb(70, 106, 139);
-  color: rgb(255, 255, 255);
+  background-color: aliceblue;
+  color: #212121;
   
 }
-/* ------------------------------------------------------phone menu part---------------------------------------------------*/
+/* ----------------------------------------phone menu part---------------------------------------------------*/
 
 .second {
-
+  width: 100%;
   background-color: #212121;
   display: none;justify-content: end; /* hide */
   flex-wrap: wrap; /* */ 
-  margin-top: -50px;
+  margin-top: -65px;
 }
 
 .second_menu{
   background-size: cover;
-  width: 65px;height: 50px;
-  background-color:  rgb(86, 131, 173);color: rgb(255, 255, 255);
+  width: 70px;height: 65px;
+  color: rgb(255, 255, 255);
   display:flex;align-items: center;justify-content: center;
   text-decoration: none;  
+  -webkit-box-shadow:0px 2px 4px #ffffff;
+  -moz-box-shadow:0px 2px 4px #ffffff;
+  box-shadow:0px 2px 4px #ffffff;
 }
 
 .second_menu:hover{
-  background-color: rgb(70, 106, 139);
+  background-color: aliceblue;
+  color: #212121;
 }
 
 /* --------------menu content-------------------- */
@@ -108,7 +112,7 @@ body, html {
   background-color: #212121;
   flex-direction: column;
   width: 100%;
-  top: 50px;
+  top: 65px;
   bottom: 0px;
   display: none;
 }
@@ -176,6 +180,17 @@ body, html {
   width: 50%;
 }
 
+#content_home{
+  height: 100%;
+  width: 100%;
+  margin-top: -65px;
+}
+
+p{
+  font-size: large;
+  color: aliceblue;
+}
+
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
@@ -188,7 +203,7 @@ body, html {
   .second {/*web setting on phone(show)*/
   
     /*background-color: rgb(26, 25, 25);*/
-    display: block;
+    display: flex;
     flex-wrap: wrap;
   }  
 }
