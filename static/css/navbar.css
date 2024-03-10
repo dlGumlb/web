@@ -186,9 +186,16 @@ body, html {
   margin-top: -65px;
 }
 
-p{
-  font-size: large;
+.big{
+  font-size: 50px;
+  font-weight: 700;
   color: aliceblue;
+}
+
+.small{
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 
