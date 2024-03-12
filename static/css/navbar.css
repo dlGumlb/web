@@ -46,19 +46,24 @@ body, html {
 .topnav a {
 
   background-color: #212121;
-  color: rgb(94, 94, 94);
+  color: rgb(255, 255, 255);
   /* text-align: center; where the text locate*/
   flex: none;/* how big <a>thing is. In this case, it's using width*/
   width: 70px;
   height: 65px;
   display: flex;align-items: center;justify-content: center;
-  text-decoration: none;
-  transition: color 0.5s;
+  text-decoration: none; 
 }
+/*
+.right_side{
+  display: flex;align-items: end;
 
+
+}
+*/
 .topnav a:hover{
-  color: aliceblue;
-
+  background-color: aliceblue;
+  color: #212121;
 }
 
 .topnav a.is_active{
@@ -67,15 +72,13 @@ body, html {
   -moz-box-shadow:0px 2px 4px #ffffff;
   box-shadow:0px 2px 4px #ffffff;
   
-  
 }
-/*
+
 .topnav a.is_active:hover{
   background-color: aliceblue;
   color: #212121;
   
 }
-*/
 /* ----------------------------------------phone menu part---------------------------------------------------*/
 
 .second {
@@ -89,20 +92,17 @@ body, html {
 .second_menu{
   background-size: cover;
   width: 70px;height: 65px;
-  color: rgb(94, 94, 94);
+  color: rgb(255, 255, 255);
   display:flex;align-items: center;justify-content: center;
-  text-decoration: none;
-  /*  
+  text-decoration: none;  
   -webkit-box-shadow:0px 2px 4px #ffffff;
   -moz-box-shadow:0px 2px 4px #ffffff;
   box-shadow:0px 2px 4px #ffffff;
-  */
-  transition: color 0.5s;
 }
 
 .second_menu:hover{
-  /*background-color: aliceblue;*/
-  color: aliceblue;
+  background-color: aliceblue;
+  color: #212121;
 }
 
 /* --------------menu content-------------------- */
