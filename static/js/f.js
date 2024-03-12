@@ -13,3 +13,10 @@ function openmenu() {
     }
 }
 
+
+function ease_thing(x){
+    if (x == "home"){
+        document.getElementsByClassName("content_home").classList.add(" content_home_activate");
+    }
+}
+    
