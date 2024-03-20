@@ -169,7 +169,7 @@ body, html {
 
 #content{
   width: 100%;
-  display: flex;justify-content: center;
+  display: flex;
   margin-top: 100px;
 }
 
@@ -187,12 +187,7 @@ body, html {
   
 }
 
-/*
-#filler{
-  height: 65px;
-  width: 100%;
-}
-*/
+
 
 #content_me{
   /*
@@ -219,13 +214,13 @@ body, html {
 }
 
 .small{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 500;
   color: aliceblue;
 }
 
 .middle{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: aliceblue;
 }
@@ -242,13 +237,17 @@ body, html {
 }
 */
 
-#left{
-  width: 45%;
-}
+
 
 #about_me{
   display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-end;align-items: flex-start;flex-direction: column;
   margin-right: 20px;
+  animation: move_right 1s;
+  
+}
+
+.middle{
+  justify-content: center
 }
 
 /*content two*/
@@ -285,6 +284,20 @@ body, html {
     transform: translateX(0);
   }
 }
+
+@keyframes move_right{
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
 
 
 /*<div class="content_home" style="display: grid;">
