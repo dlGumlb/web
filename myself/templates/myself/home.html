@@ -11,21 +11,6 @@
 <!--navbar on phone-->
 
 
-<div class="second transition">
-  <a class = 'second_menu' type="button" onclick="openmenu()">Menu</a>
-<!--show list menu when click-->
-  <div id = "menu" style="display: none;">
-    <div id="x_button" role="button" onclick="openmenu()"><span>&#10006;</span></div>
-    <!--<img id ='x_button' src="C:\Users\stang24\Desktop\project\web\static\image\x.png"  role="button" onclick="openmenu()">  "change it to text"X""-->
-    <div id="menu_content">
-      <a href="http://127.0.0.1:8000/one/"><span class="words">Home</span></a><!--connect to on</li>-->
-      <a href="http://127.0.0.1:8000/two/"><span class="words">News</span></a><!--connect to two-->
-      <a href="http://127.0.0.1:8000/three/"><span class="words">Contact</span></a><!--connect to three-->
-    </div>    
-  </div>
-</div>
-
-
 <div class="second">
   <a class = 'second_menu' type="button" onclick="openmenu()">Menu</a>
 <!--show list menu when click-->
@@ -45,19 +30,26 @@
     <a  href="http://127.0.0.1:8000/two/" >two</a>
     <a  href="http://127.0.0.1:8000/three/">three</a>
 </div>
-
-
-
-<div class="content_home" style="display: block;">
-  <script> ease_thing("home")</script>
-  <div id="content_me">
-    <div id="filler"></div>
-    <div id="about_me">
+<!--the content-->
+<div id="content">
+  <div id="content_" style="display: grid;">
+    <div id="name">
       <p class="big">Hi, I'm Eason.</p>
       <p class="small">A student from Wyalusing PA.</p>
     </div>
 
+    <div id="about_me">
+      <div id="left">
+        <p class="middle">about me</p>
+        <p class="small"> At first, I live in Taiwan, </br> than I move to America </br>in order to get better education</p>
+      </div>  
+    </div>
+
   </div>
 </div>
+
+
+  <!--</div>-->
+
 
 {% endblock %}

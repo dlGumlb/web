@@ -5,10 +5,12 @@ body, html {
   margin-top: auto;
   width: 100%;
   height: 100%;
-
+  background-color: #212121;
 }
 
-
+*{
+  box-sizing: border-box;
+}
 
 #screenFiller {
   position: absolute;
@@ -163,49 +165,97 @@ body, html {
   
   
 }
-/*  content */
+/*content thing*/
 
 #content{
-  height: 100%;
   width: 100%;
-  margin-top: -65px;
-  transition-timing-function: display 1s;
- 
+  display: flex;justify-content: center;
+  margin-top: 100px;
 }
 
+
+
+
+
+#content_{
+  height: 50%;
+  transition-timing-function: display 1s;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  
+  
+}
+
+/*
 #filler{
   height: 65px;
   width: 100%;
 }
+*/
 
 #content_me{
-  background-color: #212121;
+  /*
   height: 100%;
-  width: 50%;
+  width: 100%;
+  */
 }
 
 .content_home{
+  /*
   height: 100%;
   width: 100%;
+  */
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
   margin-top: -65px;
   
 }
 
 .big{ 
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 700;
   color: aliceblue;
 }
 
 .small{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
-  color: #ffffff;
+  color: aliceblue;
+}
+
+.middle{
+  font-size: 50px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+#name{
+  animation: move 1s;
+  display: flex;flex-direction: column;
+  margin: none;
+}
+
+/*
+.opacity_change{
+  opacity: 0.35;
+}
+*/
+
+#left{
+  width: 45%;
 }
 
 #about_me{
-  animation: move 1s;
+  display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-end;align-items: flex-start;flex-direction: column;
+  margin-right: 20px;
 }
+
+/*content two*/
+
+
+
+
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
@@ -235,3 +285,22 @@ body, html {
     transform: translateX(0);
   }
 }
+
+
+/*<div class="content_home" style="display: grid;">
+  
+  <!--<div id="content_me">-->
+  <div id="filler"></div>
+  <div id="name">
+    <p class="big">Hi, I'm Eason.</p>
+    <p class="small">A student from Wyalusing PA.</p>
+  </div>
+
+  <div id="about_me">
+    <div id="left">
+      <p class="title_two">about me</p>
+      <p class="small"> At first, I live in Taiwan, </br> than I move to America </br>in order to get better education</p>
+    </div>  
+  </div>
+</div>
+*/
