@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 body, html {
-  font-family: Arial, Helvetica, sans-serif;
+  
   margin-left: auto;
   margin-top: auto;
   width: 100%;
@@ -10,6 +10,7 @@ body, html {
 
 *{
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #screenFiller {
@@ -171,6 +172,8 @@ body, html {
   width: 100%;
   display: flex;
   margin-top: 100px;
+  position: relative;
+  z-index: 2;
 }
 
 
@@ -183,8 +186,8 @@ body, html {
   grid-column-gap: 20px;
   grid-template-columns: 1fr 1fr;
   width: 90%;
-  
-  
+  grid-column-gap: 28px;
+  grid-row-gap: 80px;  
 }
 
 
@@ -214,8 +217,8 @@ body, html {
 }
 
 .small{
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   color: aliceblue;
 }
 
@@ -240,11 +243,16 @@ body, html {
 
 
 #about_me{
-  display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-end;align-items: flex-start;flex-direction: column;
-  margin-right: 20px;
+  max-width: 342px;
+  /*display: flex;flex-direction: column;flex-wrap: wrap;align-content: flex-end;align-items: flex-start;flex-direction: column;*/
+  width: 80%;
+  /*margin-right: 20px; */
   animation: move_right 1s;
-  
+  display: flex;align-items: flex-end;
+  justify-self: end;
 }
+
+
 
 .middle{
   justify-content: center
@@ -252,7 +260,10 @@ body, html {
 
 /*content two*/
 
-
+#img{
+  position: relative;
+  z-index: 1;
+}
 
 
 
@@ -303,17 +314,29 @@ body, html {
 /*<div class="content_home" style="display: grid;">
   
   <!--<div id="content_me">-->
-  <div id="filler"></div>
+  
   <div id="name">
     <p class="big">Hi, I'm Eason.</p>
     <p class="small">A student from Wyalusing PA.</p>
   </div>
 
   <div id="about_me">
-    <div id="left">
-      <p class="title_two">about me</p>
-      <p class="small"> At first, I live in Taiwan, </br> than I move to America </br>in order to get better education</p>
-    </div>  
+    <p class="middle">about me</p>
+    <p class="small"> At first, I live in Taiwan, </br> than I move to America </br>in order to get better education</p>
+  </div>
+
+</div>
+
+
+
+<div id="content" class="middle">
+  <div id="content_"  style="display: grid;">
+    <div id="name">
+      <p class="big">Hi, I'm Eason.</p>
+      <p class="small">A student from Wyalusing PA.</p>
+    </div>
+
+
   </div>
 </div>
 */
