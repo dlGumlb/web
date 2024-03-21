@@ -13,6 +13,12 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#line{
+  width: 90%;
+  align-self: center;
+  border-color: #585858;
+}
+
 #screenFiller {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -192,25 +198,6 @@ body, html {
 }
 
 
-
-#content_me{
-  /*
-  height: 100%;
-  width: 100%;
-  */
-}
-
-.content_home{
-  /*
-  height: 100%;
-  width: 100%;
-  */
-  grid-column-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  margin-top: -65px;
-  
-}
-
 .big{ 
   font-size: 70px;
   font-weight: 700;
@@ -256,6 +243,8 @@ body, html {
 
 
 
+
+
 .middle{
   justify-content: center;
 }
@@ -265,6 +254,7 @@ body, html {
 #img{
   position: relative;
   z-index: 1;
+  justify-content: flex-end;
 }
 
 
@@ -317,19 +307,6 @@ body, html {
   
   <!--<div id="content_me">-->
   
-  <div id="name">
-    <p class="big">Hi, I'm Eason.</p>
-    <p class="small">A student from Wyalusing PA.</p>
-  </div>
-
-  <div id="about_me">
-    <p class="middle">about me</p>
-    <p class="small"> At first, I live in Taiwan, </br> than I move to America </br>in order to get better education</p>
-  </div>
-
-</div>
-
-
 
 <div id="content" class="middle">
   <div id="content_"  style="display: grid;">
@@ -338,7 +315,62 @@ body, html {
       <p class="small">A student from Wyalusing PA.</p>
     </div>
 
+    <div id="about_me">
+      <div>
+        <p class="middle">ABOUT ME</p>
+        <p class="small"> At first, I live in Taiwan, than I move to America in order to get better education</p>
+      </div>   
+      <div id="MY PROJECT">
+        <p class="middle">MY PROJECT</p>
+        <p class="small">Here is some project or activity I do in 2023 to 2024.</p>
+      </div>
+    </div>
+
+
 
   </div>
 </div>
+
+<div id="img" class="middle" style="display:flex; width: 100%; margin-top: -350px;margin-left: -20px;">
+  <div>
+    <div style="opacity: 1;background-image: radial-gradient(#ffffff 0.65px, #212121 0.65px);background-size: 13px 13px;width: 100px;height: 100px;display:block; position:relative; "></div>
+    <img  src="..\..\..\static\image\agent-peely-img.png" >
+  </div>  
+
+</div>
+
+
+
+
+
+
+#content{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+#content_{
+  height: 50%;
+  transition-timing-function: display 1s;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  grid-column-gap: 28px;
+  grid-row-gap: 80px;  
+
+
+  
+#name{
+  animation: move 1s;
+  display: flex;flex-direction: column;
+  margin: none;
+}
+}
 */
