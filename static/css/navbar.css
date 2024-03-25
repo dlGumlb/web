@@ -212,7 +212,7 @@ body, html {
 }
 
 .middle{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   color: aliceblue;
 }
@@ -241,10 +241,6 @@ body, html {
   justify-self: end;
 }
 
-
-
-
-
 .middle_{
   justify-content: center;
 }
@@ -257,6 +253,13 @@ body, html {
   justify-content: flex-end;
 }
 
+/* page one thing */
+
+.thing{
+  border: 1px solid white;height: 100%;width: 100%; border-radius: 25px;background-color: rgb(43, 43, 43);
+  margin-top: 70px;
+  height: 200px;
+}
 
 
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
