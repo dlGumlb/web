@@ -134,7 +134,7 @@ body, html {
 }
 
 #menu_content a{
-  color: aliceblue;
+  color: #f0f8ff;
   width: 100%;
   height: 70px;
   display:flex;align-items: center;justify-content:center;
@@ -245,7 +245,7 @@ body, html {
 
 
 
-.middle{
+.middle_{
   justify-content: center;
 }
 
