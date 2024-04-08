@@ -229,7 +229,9 @@ body, html {
 }
 */
 
-
+.hide{
+  display: none;
+}
 
 #about_me{
   max-width: 342px;

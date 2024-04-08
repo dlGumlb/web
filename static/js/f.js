@@ -13,6 +13,11 @@ function openmenu() {
     }
 }
 
+function open_card(){
+    
+}
+
+
 
 
 
