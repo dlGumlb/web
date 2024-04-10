@@ -264,6 +264,10 @@ body, html {
 }
 
 
+.card{
+  animation: change 1s;
+}
+
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
 
@@ -305,6 +309,14 @@ body, html {
   }
 }
 
+@keyframes change{
+  from {
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(180deg);
+  }
+}
 
 
 

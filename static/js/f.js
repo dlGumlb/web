@@ -14,7 +14,8 @@ function openmenu() {
 }
 
 function open_card(){
-    
+    var element = document.getElementsByClassName("not_turn");
+    element.classList.add("card");
 }
 
 
