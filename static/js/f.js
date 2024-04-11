@@ -1,7 +1,4 @@
 
-document.querySelectorAll(".not_turn").addEventListener("click", open_card() );
-
-
 
 
 function openmenu() {
@@ -17,6 +14,8 @@ function openmenu() {
         y.style.display = "block" 
     }
 }
+
+
 
 function open_card(){
     let element = document.getElementsByClassName("not_turn")

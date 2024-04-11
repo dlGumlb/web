@@ -268,10 +268,6 @@ body, html {
   animation: change 1s;
 }
 
-.not_turn{
-  transform: translateX(-100%);
-}
-
 @media (max-width:500px) { /*what should the web do when the web width is not enough*/
   .topnav {/*web setting on pc (hide)*/
 
