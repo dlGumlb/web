@@ -1,4 +1,9 @@
 
+document.querySelectorAll(".not_turn").addEventListener("click", open_card() );
+
+
+
+
 function openmenu() {
 
     let x = document.getElementById("menu")
@@ -14,7 +19,7 @@ function openmenu() {
 }
 
 function open_card(){
-    var element = document.getElementsByClassName("not_turn");
+    let element = document.getElementsByClassName("not_turn")
     element.classList.add("card");
 }
 
