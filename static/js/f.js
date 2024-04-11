@@ -17,9 +17,10 @@ function openmenu() {
 
 
 
-function open_card(){
-    let element = document.getElementsByClassName("not_turn")
-    element.classList.add("card");
+function open_card(number){
+    if(number == 1){
+        
+    }
 }
 
 
