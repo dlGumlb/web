@@ -16,24 +16,66 @@ function openmenu() {
 }
 
 
-
+let x=0, y=0, z=0, a=0;
 function open_card(number){
-    let x=0, y=0, z=0, a=0;
+   
     if(number == 1){
-        if(x=0){
+        let Element = document.getElementById("one")
+        Element.classList.remove("not_turn")
+        Element.classList.remove("card")
+        if(x%2==0){
             let Element = document.getElementById("one")
-            Element.classList.remove("not_turn")
-            Element.classList.add("card")   
-        }else{
-            let Element = document.getElementById("one")
-            Element.classList.remove("card") 
+            Element.classList.add("card")  
+            x+=1 
+        }else if(x%2 != 0){
+            let Element = document.getElementById("one") 
             Element.classList.add("not_turn")  
+            x-=1
         }
         
     }else if(number == 2){
         let Element = document.getElementById("two")
-        Element.classList.add("card")
+        Element.classList.remove("not_turn")
+        Element.classList.remove("card")
+        if(x%2==0){
+            let Element = document.getElementById("two")
+            Element.classList.add("card")  
+            x+=1 
+        }else if(x%2 != 0){
+            let Element = document.getElementById("two") 
+            Element.classList.add("not_turn")  
+            x-=1
+        }
+    }else if(number == 3){
+        let Element = document.getElementById("three")
+        Element.classList.remove("not_turn")
+        Element.classList.remove("card")
+        if(x%2==0){
+            let Element = document.getElementById("three")
+            Element.classList.add("card")  
+            x+=1 
+        }else if(x%2 != 0){
+            let Element = document.getElementById("three") 
+            Element.classList.add("not_turn")  
+            x-=1
+        }
+    }else if(number == 4){
+        let Element = document.getElementById("four")
+        Element.classList.remove("not_turn")
+        Element.classList.remove("card")
+        if(x%2==0){
+            let Element = document.getElementById("four")
+            Element.classList.add("card")  
+            x+=1 
+        }else if(x%2 != 0){
+            let Element = document.getElementById("four") 
+            Element.classList.add("not_turn")  
+            x-=1
+        }
     }
+
+       
+    
 }
 
 

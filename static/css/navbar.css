@@ -267,6 +267,9 @@ body, html {
 .card{
   animation: change 1s;
 }
+.not_turn{
+  animation: change2 1s;
+}
 
 .show{
   display: none;
@@ -319,6 +322,15 @@ body, html {
   }
   to{
     transform: rotateY(180deg);
+  }
+}
+
+@keyframes change2{
+  from {
+    transform: rotateY(180deg);
+  }
+  to{
+    transform: rotateY(360deg);
   }
 }
 
