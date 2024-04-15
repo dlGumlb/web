@@ -25,7 +25,8 @@ function open_card(number){
         Element.classList.remove("card")
         if(x%2==0){
             let Element = document.getElementById("one")
-            Element.classList.add("card")  
+            Element.classList.add("card") 
+            document.querySelector("first_page").classList.add("not_show");
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("one") 
@@ -72,10 +73,7 @@ function open_card(number){
             Element.classList.add("not_turn")  
             x-=1
         }
-    }
-
-       
-    
+    }    
 }
 
 

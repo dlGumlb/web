@@ -271,7 +271,7 @@ body, html {
   animation: change2 1s;
 }
 
-.show{
+.not_show{
   display: none;
 }
 
