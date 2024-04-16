@@ -26,11 +26,14 @@ function open_card(number){
         if(x%2==0){
             let Element = document.getElementById("one")
             Element.classList.add("card") 
-            document.querySelector("first_page").classList.add("not_show");
+            Element.childNodes[1].style.display = "none";
+            Element.childNodes[3].style.display = "flex";
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("one") 
-            Element.classList.add("not_turn")  
+            Element.classList.add("not_turn") 
+            Element.childNodes[3].style.display = "none";
+            Element.childNodes[1].style.display = "block"; 
             x-=1
         }
         
@@ -41,10 +44,14 @@ function open_card(number){
         if(x%2==0){
             let Element = document.getElementById("two")
             Element.classList.add("card")  
+            Element.childNodes[1].style.display = "none";
+            Element.childNodes[3].style.display = "flex";
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("two") 
             Element.classList.add("not_turn")  
+            Element.childNodes[3].style.display = "none";
+            Element.childNodes[1].style.display = "block"; 
             x-=1
         }
     }else if(number == 3){
@@ -53,11 +60,15 @@ function open_card(number){
         Element.classList.remove("card")
         if(x%2==0){
             let Element = document.getElementById("three")
-            Element.classList.add("card")  
+            Element.classList.add("card") 
+            Element.childNodes[1].style.display = "none";
+            Element.childNodes[3].style.display = "flex"; 
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("three") 
             Element.classList.add("not_turn")  
+            Element.childNodes[3].style.display = "none";
+            Element.childNodes[1].style.display = "block"; 
             x-=1
         }
     }else if(number == 4){
@@ -66,11 +77,15 @@ function open_card(number){
         Element.classList.remove("card")
         if(x%2==0){
             let Element = document.getElementById("four")
-            Element.classList.add("card")  
+            Element.classList.add("card") 
+            Element.childNodes[1].style.display = "none";
+            Element.childNodes[3].style.display = "flex"; 
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("four") 
             Element.classList.add("not_turn")  
+            Element.childNodes[3].style.display = "none";
+            Element.childNodes[1].style.display = "block"; 
             x-=1
         }
     }    
