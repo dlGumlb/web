@@ -16,7 +16,6 @@ function openmenu() {
 }
 
 
-let x=0, y=0, z=0, a=0;
 function open_card(number){
    
     if(number == 1){
@@ -28,6 +27,7 @@ function open_card(number){
             Element.classList.add("card") 
             Element.childNodes[1].style.display = "none";
             Element.childNodes[3].style.display = "flex";
+            
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("one") 
@@ -63,6 +63,7 @@ function open_card(number){
             Element.classList.add("card") 
             Element.childNodes[1].style.display = "none";
             Element.childNodes[3].style.display = "flex"; 
+            
             x+=1 
         }else if(x%2 != 0){
             let Element = document.getElementById("three") 

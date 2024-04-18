@@ -266,6 +266,7 @@ body, html {
 
 .card{
   animation: change 1s;
+  
 }
 .not_turn{
   animation: change2 1s;
