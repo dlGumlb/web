@@ -15,7 +15,7 @@ function openmenu() {
     }
 }
 
-
+let x = 0
 function open_card(number){
    
     if(number == 1){

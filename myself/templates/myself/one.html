@@ -2,83 +2,88 @@
 
 
 {%block content%}
-<!--    <img class = 'second_menu' src = '../../../static/image/123.png'  role="button" onclick="openmenu()" > -->
-<a id="home_button" href='http://127.0.0.1:8000/'>
-  <img src="../../../static/image/wvhs.png" style="height: 65px; width: 65px;">
- </a>
-<!--nav on phone  -->
-<div class="second">
-  <a class = 'second_menu' type="button" onclick="openmenu()">Menu</a>
-<!--show list menu when click-->
-  <div id = "menu" style="display: none;">
-    <div id="x_button" role="button" onclick="openmenu()"><span>&#10006;</span></div>
-    <!--<img id ='x_button' src="C:\Users\stang24\Desktop\project\web\static\image\x.png"  role="button" onclick="openmenu()">  "change it to text"X""-->
-    <div id="menu_content">
-      <a href="http://127.0.0.1:8000/one/"><span class="words">Home</span></a><!--connect to on</li>-->
-      <a href="http://127.0.0.1:8000/two/"><span class="words">News</span></a><!--connect to two-->
-      <a href="http://127.0.0.1:8000/three/"><span class="words">Contact</span></a><!--connect to three-->
-    </div>    
-  </div>
-</div>
-
-<!--navbar on computer-->
-<div class="topnav transition">
-    <a class="is_active" href="http://127.0.0.1:8000/one">Project</a>
-    <a href="http://127.0.0.1:8000/two/" >two</a>
-    <a href="http://127.0.0.1:8000/three/">three</a>
-</div>
-
-
-<div id="content" style="display: flex;flex-direction: column;align-items: center;margin: 0;">
-  <div>
-    <p class="big">Project/Activity</p>
-  </div>
-  <div style="display: grid;height: 100%;width: 90%;grid-column-gap: 20px;grid-template-columns: 1fr 1fr;  grid-column-gap: 28px;justify-content: center;">
-    <div>
-      <div class="thing" id="one" role="button" style=" margin-top: 30px;" onclick="open_card(1)" >
-        <div class="first_page">
-          <p class="middle" style="display:flex;justify-content: center;">Python Tic Tac Toe</p>
-          <p class="small" style=" display:flex;justify-content: center;">A minigame I make at school using python.</p>
-        </div> 
-        <div class="second_page" style="display: none;">
-          <p class="small">This is a minigame I make while at school, while every one is following teacher using code language like scratch to make TIC TAC TOE, I think I maybe can try to make it by python, so I decide to make it on my own. THis experience give me a thought to make a website as my protfolio.</p>
-        </div> 
-      </div>
-
-      <div class="thing" id="two" role="button" onclick="open_card(2)">
-        <div class="first_page">
-          <p class="middle" style="display:flex;justify-content: center;">Help school Tech Appartment</p>
-          <p class="small" style=" display:flex;justify-content: center;">I help them fix computer</p>
-        </div>
-        <div class="second_page" style="display: none;">
-          <p class="small">222</p>
-        </div> 
-      </div>
-
-    </div>
-<!--left section-->
-    <div>
-      <div class="thing" id="three" role="button" onclick="open_card(3)">
-        <div class="first_page">
-          <p class="middle" style="display:flex;justify-content: center;">Join science olympiad</p>
-          <p class="small" style=" display:flex;justify-content: center;">I join school science olympiad team.</p>
-        </div>
-        <div class="second_page" style="display: none;">
-          <p>333</p>
-        </div> 
-      </div>
-
-      <div class="thing" id="four" role="button" onclick="open_card(4)">
-        <div class="first_page">
-          <p class="middle" style="display:flex;justify-content: center;">Join school Track team</p>
-          <p class="small" style=" display:flex;justify-content: center;">A minigame I make on 2023 using python.</p>
-        </div>
-        <div class="second_page" style="display: none;">
-          <p>444</p>
-        </div> 
-      </div>
+<div>
+  <!--    <img class = 'second_menu' src = '../../../static/image/123.png'  role="button" onclick="openmenu()" > -->
+  <a id="home_button" href='http://127.0.0.1:8000/'>
+    <img src="../../../static/image/wvhs.png" style="height: 65px; width: 65px;">
+  </a>
+  <!--nav on phone  -->
+  <div class="second">
+    <a class = 'second_menu' type="button" onclick="openmenu()">Menu</a>
+  <!--show list menu when click-->
+    <div id = "menu" style="display: none;">
+      <div id="x_button" role="button" onclick="openmenu()"><span>&#10006;</span></div>
+      <!--<img id ='x_button' src="C:\Users\stang24\Desktop\project\web\static\image\x.png"  role="button" onclick="openmenu()">  "change it to text"X""-->
+      <div id="menu_content">
+        <a href="http://127.0.0.1:8000/one/"><span class="words">Home</span></a><!--connect to on</li>-->
+        <a href="http://127.0.0.1:8000/two/"><span class="words">News</span></a><!--connect to two-->
+        <a href="http://127.0.0.1:8000/three/"><span class="words">Contact</span></a><!--connect to three-->
+      </div>    
     </div>
   </div>
-</div>
 
+  <!--navbar on computer-->
+  <div class="topnav transition">
+      <a class="is_active" href="http://127.0.0.1:8000/one">Project</a>
+      <a href="http://127.0.0.1:8000/two/" >two</a>
+      <a href="http://127.0.0.1:8000/three/">three</a>
+  </div>
+
+
+  <div id="content" style="display: flex;flex-direction: column;align-items: center;margin: 0;">
+    <div>
+      <p class="big">Project/Activity</p>
+    </div>
+    <div style="display: grid;height: 100%;width: 90%;grid-column-gap: 20px;grid-template-columns: 1fr 1fr;  grid-column-gap: 28px;justify-content: center;">
+      <div>
+        <div class="thing" id="one" role="button" style=" margin-top: 30px;" onclick="open_card(1)" >
+          <div class="first_page">
+            <p class="middle" style="display:flex;justify-content: center;">Python Tic Tac Toe</p>
+            <p class="small" style=" display:flex;justify-content: center;">A minigame I make at sc hool using python.</p>
+          </div> 
+          <div class="second_page" style="display: none;">
+            <p class="small">This is a minigame I make while at school, while every one is following teacher using code language like scratch to make TIC TAC TOE, I think I maybe can try to make it by python, so I decide to make it on my own. THis experience give me a thought to make a website as my protfolio.</p>
+          </div> 
+        </div>
+
+        <div class="thing" id="two" role="button" onclick="open_card(2)">
+          <div class="first_page">
+            <p class="middle" style="display:flex;justify-content: center;">Help school Tech Appartment</p>
+            <p class="small" style=" display:flex;justify-content: center;">I help them fix computer</p>
+          </div>
+          <div class="second_page" style="display: none;">
+            <p class="small">222</p>
+          </div> 
+        </div>
+
+      </div>
+  <!--left section-->
+      <div>
+        <div class="thing" id="three" role="button" onclick="open_card(3)">
+          <div class="first_page">
+            <p class="middle" style="display:flex;justify-content: center;">Join science olympiad</p>
+            <p class="small" style=" display:flex;justify-content: center;">I join school science olympiad team.</p>
+          </div>
+          <div class="second_page" style="display: none;">
+            <p>333</p>
+          </div> 
+        </div>
+
+        <div class="thing" id="four" role="button" onclick="open_card(4)">
+          <div class="first_page">
+            <p class="middle" style="display:flex;justify-content: center;">Join school Track team</p>
+            <p class="small" style=" display:flex;justify-content: center;">A minigame I make on 2023 using python.</p>
+          </div>
+          <div class="second_page" style="display: none;">
+            <p>444</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+</div>
 {% endblock %}
