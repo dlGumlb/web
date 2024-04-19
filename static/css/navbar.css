@@ -265,7 +265,7 @@ body, html {
 
 
 .card{
-  animation: change 1s  cubic-bezier(.7,0,.25,1) .25s, opacity .2s ease-out .75s;
+    animation: change 1s  cubic-bezier(.7,0,.25,1) .25s, opacity .2s ease-out .75s;
   
 }
 .not_turn{
