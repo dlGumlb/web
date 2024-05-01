@@ -87,7 +87,7 @@ function open_card(number){
             Element.classList.add("not_turn")  
             Element.childNodes[3].style.display = "none";
             Element.childNodes[1].style.display = "block"; 
-            x-=1
+            x-=1    
         }
     }    
 }
