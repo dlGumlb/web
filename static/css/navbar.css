@@ -5,7 +5,7 @@ body, html {
   margin-top: auto;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#212121, #585858);
+  background-image: linear-gradient( 150deg ,#212121, #131b25);
 }
 
 *{
@@ -26,7 +26,7 @@ body, html {
 }
 /* home button*/
 #home_button{
-  background-color: #212121;
+  /*background-color: #212121;*/
   display: flex;/* let <a>part be flex*/
   
 }
@@ -48,14 +48,14 @@ body, html {
 }
 /* normal navbar */
 .topnav{
-  background-color: #212121;
+  /*background-color: #212121;*/
   display: flex;justify-content: end;/* let <a>part be flex*/
   margin-top: -65px;
 }
 
 /* find out how to let other element change color when one element is hover*/
 .topnav a {
-  background-color: #212121;
+  /*background-color: #212121;*/
   color: rgb(77, 77, 77);
   /* text-align: center; where the text locate*/
   flex: none;/* how big <a>thing is. In this case, it's using width*/
@@ -220,7 +220,8 @@ body, html {
 #name{
   animation: move 1s;
   display: flex;flex-direction: column;
-  margin: none;
+  /*margin: none;*/
+  margin-left: 20px;
 }
 
 /*
@@ -258,7 +259,7 @@ body, html {
 /* page one thing */
 
 .thing{
-  border: 1px solid white;height: 100%;width: 100%; border-radius: 25px;background-color: rgb(43, 43, 43);
+  border: 1px solid white;height: 100%;width: 100%; border-radius: 25px;
   margin-top: 60px;
   height: 200px;
 }
